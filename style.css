@@ -229,7 +229,7 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
-    width: 960px;
+    width: 900px;
     height: 575px;
     z-index: 200;
     text-align: center;
