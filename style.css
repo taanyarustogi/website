@@ -283,9 +283,8 @@
   }
 
   .column-pop {
-    flex: 30%;
-    padding: 5px;
-    margin: 10px;
+    flex: 33.33%;
+    padding: 15px;
   }
 
   .project-btn:hover{
