@@ -229,8 +229,8 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
-    width: 75%;
-    height: 80%;
+    width: 960px;
+    height: 575px;
     z-index: 200;
     text-align: center;
     padding: 20px;
@@ -257,56 +257,11 @@
     transform: translate(-50%, -50%) scale(1);
     transition: all 300ms ease-in-out;
   }
-  /*popup1*/
-  .popup1 .overlay{
-    position: fixed;
-    top: 0px;
-    left: 0px;
-    width: 100vw;
-    height: 100vh;
-    background: rgba(0,0,0,0.7);
-    z-index: 100;
-    display: none;
-  }
-  .popup1 .content{
-    position: absolute;
-    top: 200%;
-    left: 50%;
-    transform: translate(-50%, -50%) scale(0);
-    background: #fff;
-    width: 75%;
-    height: 80%;
-    z-index: 200;
-    text-align: center;
-    padding: 20px;
-    box-sizing: border-box;
-  }
   .popup h4{
     font-size: 20px;
   }
   .popup p{
     font-size: 15px;
-  }
-  .popup1 .close-btn {
-    position: absolute;
-    right: 20px;
-    top: 20px;
-    width: 30px;
-    height: 30px;
-    background: #222;
-    color: #fff;
-    font-size: 25px;
-    font-weight: 600;
-    line-height: 30px;
-    text-align: center;
-    border-radius: 50%;
-  }
-  .popup1.active .overlay{
-    display: block;
-  }
-  .popup1.active .content{
-    transform: translate(-50%, -50%) scale(1);
-    transition: all 300ms ease-in-out;
   }
   .project-btn{
     border-radius: 50px;
