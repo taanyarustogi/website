@@ -229,8 +229,8 @@
     left: 50%;
     transform: translate(-50%, -50%) scale(0);
     background: #fff;
-    width: 900px;
-    height: 575px;
+    width: 960px;
+    height: 525px;
     z-index: 200;
     text-align: center;
     padding: 20px;
