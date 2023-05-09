@@ -53,6 +53,9 @@ function togglePopup7(){
 function togglePopup8(){
     document.getElementById("popup8").classList.toggle("active");
 }
+function togglePopup9(){
+    document.getElementById("popup9").classList.toggle("active");
+}
 function autoscroll(){
     document.getElementById("project").scrollIntoView(true);
 }
