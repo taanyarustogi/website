@@ -3,7 +3,7 @@ import resume from './assets/resume.pdf';
 import backdrop from './assets/backdrop.png';
 import background from './assets/bg.jpg';
 import flrtrx from './assets/flrtrx.png';
-import stockbot from './assets/stockbot.jpg';
+import stockbot from './assets/stockbot.JPG';
 import openhardwaresoftware from './assets/openhardwaresoftware.jpg';
 import aiapp from './assets/aiapp.png';
 import bird from './assets/bird.png';
