@@ -10,6 +10,7 @@ import bird from './assets/bird.png';
 import emg from './assets/emg.png';
 import nom from './assets/nom.png';
 import reversiimg from './assets/reversiimg.png';
+import jelly from './assets/jelly.png';
 import radio from './assets/radio.png';
 import reversi from './assets/reversi.png';
 import nomnom from './assets/nomnom.png';
@@ -18,6 +19,7 @@ import fpga from './assets/fpga.png';
 import dumbell from './assets/dumbell.png';
 import camera from './assets/camera.png';
 import birdicon from './assets/birdicon.png';
+import jellyicon from './assets/jellyicon.png';
 
 const UnpackingPortfolio = () => {
   // list of projects
@@ -105,26 +107,6 @@ const UnpackingPortfolio = () => {
   },
   {
     id: 5,
-    type: 'reversi',
-    icon: reversi,
-    x: 100,
-    y: 560,
-    width: 70,
-    height: 70,
-    inBag: false,
-    zIndex: 10,
-    project: {
-      title: "Reversi Game",
-      description:
-        "Implemented a fully playable Reversi game in C, featuring a computer opponent that evaluates the best possible move using multiple decision-making algorithms.",
-      tech: "C, Algorithms, Game Logic",
-      images: reversiimg,
-      view: "", 
-      github: "https://github.com/taanyarustogi/reversi-lab"
-    }
-  },
-  {
-    id: 6,
     type: 'bird',
     icon: birdicon,
     x: 100,
@@ -144,7 +126,47 @@ const UnpackingPortfolio = () => {
     }
   },
   {
+    id: 6,
+    type: 'jelly',
+    icon: jellyicon,
+    x: 100,
+    y: 680,
+    width: 80,
+    height: 80,
+    inBag: false,
+    zIndex: 10,
+    project: {
+      title: "Jelly Mesh Graphics",
+      description:
+        "Used computer graphics techniques to create an interactive animation of three jelly-like meshes that collide and deform using real-world physics, triggered by user input.",
+      tech: "C++, Computer Graphics, Physics Simulation",
+      images: jelly,
+      view: "https://drive.google.com/file/d/1ixQrRfgb3EN5AijGonlHAS22Muc3zGcv",
+      github: "https://github.com/taanyarustogi/csc317-showcase"
+    }
+  },
+  {
     id: 7,
+    type: 'reversi',
+    icon: reversi,
+    x: 100,
+    y: 560,
+    width: 70,
+    height: 70,
+    inBag: false,
+    zIndex: 10,
+    project: {
+      title: "Reversi Game",
+      description:
+        "Implemented a fully playable Reversi game in C, featuring a computer opponent that evaluates the best possible move using multiple decision-making algorithms.",
+      tech: "C, Algorithms, Game Logic",
+      images: reversiimg,
+      view: "", 
+      github: "https://github.com/taanyarustogi/reversi-lab"
+    }
+  },
+  {
+    id: 8,
     type: 'emg',
     icon: dumbell,
     x: 100,
@@ -164,7 +186,7 @@ const UnpackingPortfolio = () => {
     }
   },
   {
-    id: 8,
+    id: 9,
     type: 'nomnom',
     icon: nomnom,
     x: 100,
@@ -548,7 +570,7 @@ const UnpackingPortfolio = () => {
               <div className="bg-white rounded-2xl shadow-2xl max-w-4xl w-full relative max-h-[90vh] overflow-y-auto">
                 <button
                   onClick={() => setActivePopup(null)}
-                  className="sticky top-4 ml-auto text-gray-400 hover:text-gray-600 text-3xl font-light leading-none z-10 w-10 h-10 flex items-center justify-center rounded-full hover:bg-gray-100 transition-all"
+                  className="absolute top-4 right-4 text-gray-400 hover:text-gray-600 hover:bg-gray-100 text-3xl font-light leading-none z-20 w-10 h-10 flex items-center justify-center rounded-full transition-all"
                 >
                   ×
                 </button>
